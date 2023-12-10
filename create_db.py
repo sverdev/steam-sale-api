@@ -10,7 +10,7 @@ def create_database():
     cursor = conn.cursor()
 
     # Create a table
-    cursor.execute('CREATE TABLE game_sales (title TEXT, release_date TEXT, discount_price TEXT, discount_pct TEXT, image_url TEXT, game_url TEXT)')
+    cursor.execute('CREATE TABLE game_sales (title TEXT, release_date TEXT, discount_price TEXT, discount_original_price TEXT, image_url TEXT, game_url TEXT)')
 
     # Commit the changes
     conn.commit()
