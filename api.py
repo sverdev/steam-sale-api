@@ -24,7 +24,7 @@ def get_game_sales():
             'title': game_alert[0],  # Use the correct index here
             'release_date': game_alert[1],  # Use the correct index here
             'discount_price': game_alert[2],  # Use the correct index here
-            'discount_pct': game_alert[3],  # Use the correct index here
+            'discount_original_price': game_alert[3],  # Use the correct index here
             'image_url': game_alert[4],  # Use the correct index here
             'game_url': game_alert[5]  # Use the correct index here
 
